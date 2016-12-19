@@ -1,4 +1,4 @@
-require "mdbootstrap/rails/version"
+require 'mdbootstrap/rails/version'
 
 module Mdbootstrap
   module Rails
