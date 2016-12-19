@@ -6,7 +6,7 @@ require 'mdbootstrap/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "mdbootstrap-rails"
   spec.version       = Mdbootstrap::Rails::VERSION
-  spec.authors       = ["ggomagundan"]
+  spec.authors       = ["Kai Park"]
   spec.email         = ["ggogun@gmail.com"]
 
   spec.summary       = %q{Gem for mdbootstrap}
