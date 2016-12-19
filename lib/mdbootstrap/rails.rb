@@ -2,6 +2,7 @@ require "mdbootstrap/rails/version"
 
 module Mdbootstrap
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end

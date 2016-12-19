@@ -8,3 +8,7 @@
 /spec/reports/
 /tmp/
 .DS_Store
+
+*.gem
+/vendor/cache
+/vendor/bundle
