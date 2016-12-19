@@ -1,8 +1,7 @@
 require 'mdbootstrap/rails/version'
+require "mdbootstrap/rails/engine" if defined?(::Rails)
 
 module Mdbootstrap
   module Rails
-    class Engine < ::Rails::Engine
-    end
   end
 end
