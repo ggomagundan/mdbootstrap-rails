@@ -1,15 +1,16 @@
 require File.expand_path('../boot', __FILE__)
 
-# require "rails/all"
-require "sprockets/railtie"
+require "rails/all"
+# require "sprockets/railtie"
 
 Bundler.require(:default, :development)
 
 module Dummy
   class Application < Rails::Application
     config.encoding = "utf-8"
-    config.assets.enabled = true
+    config.assets.enabled = true if config.assets.respond_to?(:enabled)
     config.assets.version = '1.0'
+    config.assets.precompile += %w( application.css application.js )
 
     # replacement for environments/*.rb
     config.active_support.deprecation = :stderr
