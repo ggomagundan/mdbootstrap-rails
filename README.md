@@ -1,8 +1,12 @@
-# Mdbootstrap::Rails
+# mdbootstrap-rails
+`mdbootstrap-rails` is make for Rails Project with Bootstrap v4 and
+MDB(Material Design Bootstrap) 
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mdbootstrap/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+Current MDB Version: MDB Free 4.2.0
 
-TODO: Delete this and the text above, and describe your gem
+Documentation:
+http://mdbootstrap.com/
+
 
 ## Installation
 
@@ -22,6 +26,31 @@ Or install it yourself as:
 
 ## Usage
 
+Edit your `app/assets/javascripts/application.js` file
+```javascript
+// app/assets/javascripts/application.js
+........
+//= require tether
+//= require bootstrap
+//= require mdb
+........
+
+```
+
+Edit your `app/assets/stylesheets/application.css` or `app/assets/stylesheets/application.scss` file
+```css
+// app/assets/stylesheets/application.css
+..........
+*= require bootstrap
+*= require mdb
+..........
+
+// app/assets/stylesheets/application.scss
+..........
+@import "bootstrap";
+@import "mdb";
+..........
+```
 
 ## Change Log
 
