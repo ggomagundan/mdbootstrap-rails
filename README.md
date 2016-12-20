@@ -1,4 +1,9 @@
+
 # mdbootstrap-rails
+[![Build
+Status](https://travis-ci.org/ggomagundan/mdbootstrap-rails.svg?branch=master)](https://travis-ci.org/ggomagundan/mdbootstrap-rails)
+[![Gem
+Version](https://badge.fury.io/rb/mdbootstrap-rails.svg)](https://badge.fury.io/rb/mdbootstrap-rails)
 `mdbootstrap-rails` is make for Rails Project with Bootstrap v4 and
 MDB(Material Design Bootstrap) 
 
