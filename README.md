@@ -64,7 +64,7 @@ Edit your `app/assets/stylesheets/application.css` or `app/assets/stylesheets/ap
 
 ## Change Log
 
-Current Version 0.1.0
+Current Version 0.2.1
 
 This link listing [Change
 Log](https://github.com/ggomagundan/mdbootstrap-rails/blob/master/CHANGE_LOG.md)

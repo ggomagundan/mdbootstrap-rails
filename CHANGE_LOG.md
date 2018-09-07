@@ -7,4 +7,6 @@
    - Init Project
    - Add MDB(Material Design Bootstrap) v4.2.0
 
+ * **v0.2.1** - 2018-09-08
+   - Update Gemspec file
 
