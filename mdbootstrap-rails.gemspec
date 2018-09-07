@@ -19,13 +19,13 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "railties", ">= 3.2", "< 5.1"
+  spec.add_dependency "railties", ">= 3.2", "<= 5.2"
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
 
   spec.add_development_dependency "activesupport", '>= 4.1.5'
-  spec.add_development_dependency "sass-rails", '~> 5.0'
+  spec.add_development_dependency "sass-rails", '>= 5.0'
 
   spec.add_runtime_dependency "font-awesome-rails", "~> 4.7"
 end
