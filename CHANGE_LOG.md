@@ -10,3 +10,6 @@
  * **v0.2.1** - 2018-09-08
    - Update Gemspec file
 
+ * **v0.2.2** - 2018-09-08
+   - Fix railties gem version conflict
+
