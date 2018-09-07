@@ -62,9 +62,13 @@ Edit your `app/assets/stylesheets/application.css` or `app/assets/stylesheets/ap
 ..........
 ```
 
+## Sample
+
+Will be soon
+
 ## Change Log
 
-Current Version 0.2.1
+Current Version 0.2.2
 
 This link listing [Change
 Log](https://github.com/ggomagundan/mdbootstrap-rails/blob/master/CHANGE_LOG.md)
